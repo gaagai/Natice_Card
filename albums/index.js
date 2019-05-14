@@ -9,7 +9,7 @@ import AlbumList from './src/components/AlbumList';
 
 const App = () => {
     return (
-        <View>
+        <View style={{ flex: 2 }}>
             <Header headerText={'Albums'} />
             <AlbumList />
         </View>
